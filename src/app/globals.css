@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,14 +14,56 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: "rgb(var(--foreground-rgb)";
+  background-color: #e4e1de;
 }
+
+.page-header {
+    animation: grain 8s steps(10) infinite;
+    background-image: url("/images/grain.jpg");
+    content: "";
+    height: 300%;
+    left: -50%;
+    opacity: 0.2;
+    position: fixed;
+    top: -100%;
+    width: 300%;
+    z-index: -10;
+  }
+  
+  @keyframes grain {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    10% {
+      transform: translate(-5%, -10%);
+    }
+    20% {
+      transform: translate(-10%, 5%);
+    }
+    30% {
+      transform: translate(7%, -25%);
+    }
+    40% {
+      transform: translate(-5%, 25%);
+    }
+    50% {
+      transform: translate(-10%, 10%);
+    }
+    60% {
+      transform: translate(10%, 0%);
+    }
+    70% {
+      transform: translate(0%, 15%);
+    }
+    80% {
+      transform: translate(3%, 5%);
+    }
+    90% {
+      transform: translate(-10%, 10%);
+    }
+  }
