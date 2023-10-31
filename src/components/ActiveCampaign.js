@@ -59,11 +59,11 @@ export default function ActiveCampaign() {
           <form onSubmit={handleSubmit(onSubmit)}>
             <fieldset>
               <legend className="font-biro text-3xl text-center mb-3">
-                KAREEN'S JOURNAL
+                KAREEN&apos;S JOURNAL
               </legend>
               <p className="font-inter text-md text-center leading-5">
-                Join Kareen's mailing list to be the first to hear about new
-                music, tour dates, merch, and more.
+                Join Kareen&apos;s mailing list to be the first to hear about
+                new music, tour dates, merch, and more.
               </p>
               <div className="flex gap-2 my-8 content-end">
                 <div className="w-full">
@@ -106,7 +106,8 @@ export default function ActiveCampaign() {
           </form>
         ) : (
           <p className="text-center">
-            Thank you. You are now subscribed to Kareen Lomax's mailing list.
+            Thank you. You are now subscribed to Kareen Lomax&apos;s mailing
+            list.
           </p>
         )}
       </div>

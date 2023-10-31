@@ -68,7 +68,7 @@ export default function ImageMenu() {
           <Draggable position={position} />
         </div>
         <p className="font-biro text-2xl mt-40 text-center">
-          Drag the watering can to water Kareen's flowers
+          Drag the watering can to water Kareen&apos;s flowers
         </p>
       </DndContext>
     </div>
