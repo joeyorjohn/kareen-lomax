@@ -8,8 +8,9 @@ import Footer from "@/components/Footer";
 
 export default function home() {
   const meta = {
-    title: "Kareen Lomax",
-    description: "SELF CARE out November 8th",
+    title: "Kareen Lomax | Official Website",
+    description:
+      "Official website for Atlanta-raised (LA-based) Alternative R&B artist and songwriter Kareen Lomax. SELF CARE out November 8th. Features with Paul Woolford (Looking For Me), TSHA, Aluna, Diplo.",
     image: "/images/kareen_website.jpg",
     type: "website",
   };
