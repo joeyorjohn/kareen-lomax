@@ -19,9 +19,9 @@ export default function Draggable({ position }) {
         style={{ ...style, left: position.x, top: position.y }}
         {...listeners}
         {...attributes}
-        className=" relative mx-auto w-52  touch-none	"
+        className=" relative mx-auto w-40 md:w-52  touch-none	"
       >
-        <div className=" text-xl  w-52 pl-4">
+        <div className=" text-xl  w-40 md:w-52 pl-4">
           <img src="/images/watering_can.gif" alt="Watering Can" />
         </div>
       </div>
