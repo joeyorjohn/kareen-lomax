@@ -36,13 +36,26 @@ export default function ImageMenu() {
               <MenuItem id="self_care_flower" collisions={collisions} />
 
               <p className=" font-biro text-2xl mx-auto mt-3 group-hover:underline">
-                PRE-SAVE
+                STREAM
               </p>
             </div>
           </a>
-          <div className="flex flex-col cursor-pointer self-end group w-36 md:w-64 lg:w-96 md:max-w-xs">
-            <MenuItem id="flower" collisions={collisions} />
-          </div>
+          <a
+            href="https://kareenlomax.seeker.fm/selfcarelyric.OWE"
+            className="self-end"
+          >
+            <div className="flex flex-col cursor-pointer self-end group w-36 md:w-64 lg:w-96 md:max-w-xs">
+              <p className=" font-biro text-2xl mx-auto">
+                SELF CARE LYRIC VIDEO
+              </p>
+
+              <MenuItem id="flower" collisions={collisions} />
+              <p className=" font-biro text-2xl mx-auto mt-3 group-hover:underline">
+                WATCH
+              </p>
+            </div>{" "}
+          </a>
+
           <div className="flex flex-col cursor-pointer  group w-40 md:w-64 lg:w-96 md:max-w-xs">
             <MenuItem id="daisy" collisions={collisions} />
           </div>
