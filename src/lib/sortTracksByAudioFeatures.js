@@ -5,7 +5,7 @@ export default function sortTracksByAudioFeatures(tracks) {
 
   if (tracks.audio_features.length >= 1) {
     tracks.audio_features.forEach(function (track) {
-      if (track.valence < 0.5) {
+      if (track.valence < 0.45) {
         // if (track.valence < 0.5 && track.tempo < 100) {
         sortedTracks.push(track);
       }

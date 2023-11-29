@@ -6,13 +6,20 @@ export default function Login() {
   return (
     <div className="flex mb-12">
       <div className="max-w-sm mx-auto my-2">
-        <div className="max-w-xs mx-auto">
+        {/* <div className="max-w-xs mx-auto">
           <Image
             src="/images/SELF_CARE_Playlist_Share.jpg"
             height="1440"
             width="1080"
             className="border border-black"
           />
+        </div> */}
+        <div className="border border-black">
+          <Image
+            src="/images/playlist_cvoer.png"
+            width="1080"
+            height="1080"
+          ></Image>
         </div>
         <h1 className="font-biro text-3xl text-center mb-3 mt-8">
           MY SELF CARE PLAYLIST
