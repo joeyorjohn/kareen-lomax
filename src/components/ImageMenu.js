@@ -57,7 +57,12 @@ export default function ImageMenu() {
           </a>
 
           <div className="flex flex-col cursor-pointer  group w-40 md:w-64 lg:w-96 md:max-w-xs">
-            <MenuItem id="daisy" collisions={collisions} />
+            <Link href="/selfcare">
+              <MenuItem id="daisy" collisions={collisions} />
+              <p className=" font-biro text-2xl mx-auto mt-3 group-hover:underline">
+                MY SELF CARE PLAYLIST
+              </p>
+            </Link>
           </div>
 
           <div className="flex w-full flex-wrap gap-4 md:gap-12 mx-auto justify-around max-w-6xl">

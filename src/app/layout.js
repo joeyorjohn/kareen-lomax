@@ -18,37 +18,6 @@ const roboto = Roboto({
   display: "swap",
 });
 
-export const metadata = {
-  title: "Kareen Lomax | Official Website",
-  description:
-    "Official website for Atlanta-raised (LA-based) Alternative R&B artist and songwriter Kareen Lomax. SELF CARE out November 8th. Features with Paul Woolford (Looking For Me), TSHA, Aluna, Diplo.",
-  openGraph: {
-    title: "Kareen Lomax | Official Website",
-    description:
-      "Official website for Atlanta-raised (LA-based) Alternative R&B artist and songwriter Kareen Lomax. SELF CARE out November 8th. Features with Paul Woolford (Looking For Me), TSHA, Aluna, Diplo.",
-    images: ["/images/kareen_website.jpg"],
-    url: "https://kareenlomax.com",
-    siteName: "Kareen Lomax",
-    locale: "en_US",
-    type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  twitter: {
-    title: "Kareen Lomax",
-    card: "summary_large_image",
-  },
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
