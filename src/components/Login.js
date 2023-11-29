@@ -50,8 +50,12 @@ export default function Login() {
               COMMUNICATIONS FROM KAREEN LOMAX &amp; SEEKER MUSIC GROUP
             </p>
             <p className=" text-xs text-center mt-2">
-              <Link href="/privacy-policy">Privacy Policy</Link> |{" "}
-              <Link href="/terms">Terms &amp; Conditions</Link>
+              <a href="https://www.seekermusic.com/SeekerMusicPrivacyPolicy.pdf">
+                <p>Privacy Policy</p>
+              </a>
+              <a href="https://www.seekermusic.com/SeekerTermsofUsePolicy.pdf">
+                <p>Terms of Use</p>{" "}
+              </a>
             </p>
           </div>
         </div>
