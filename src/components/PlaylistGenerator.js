@@ -506,7 +506,7 @@ export default function PlaylistGenerator() {
                   }}
                   className=" font-inter uppercase border border-black py-2 px-4 rounded-md w-full mb-2 mx-auto cursor-pointer bg-black text-white  hover:bg-slate-600 hover:border-slate-600 transition"
                 >
-                  Download Image
+                  Share Image
                 </button>
                 <p className="text-center font-inter italic my-4">
                   Tag @kareenlomax and use the &quot;SELF CARE &quot; sound when
