@@ -22,8 +22,8 @@ export const metadata = {
     title: "My SELF CARE Playlist | Personalized Spotify Playlist Generator",
     description:
       "Connect with Spotify to get your personalized SELF CARE playlist curated by Kareen Lomax.",
-    images: ["/images/kareen_website.jpg"],
-    url: "https://kareenlomax.com",
+    images: ["/images/playlist_cvoer.png"],
+    url: "https://kareenlomax.com/selfcare",
     siteName: "Kareen Lomax",
     locale: "en_US",
     type: "website",

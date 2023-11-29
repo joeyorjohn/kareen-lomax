@@ -46,7 +46,7 @@ export default function ImageMenu() {
             className="self-end"
           >
             <div className="flex flex-col cursor-pointer self-end group w-36 md:w-64 lg:w-96 md:max-w-xs">
-              <p className=" font-biro text-2xl mx-auto">
+              <p className=" font-biro text-2xl mx-auto text-center">
                 SELF CARE LYRIC VIDEO
               </p>
 
@@ -60,7 +60,7 @@ export default function ImageMenu() {
           <div className="flex flex-col cursor-pointer  group w-40 md:w-64 lg:w-96 md:max-w-xs">
             <Link href="/selfcare">
               <MenuItem id="daisy" collisions={collisions} />
-              <p className=" font-biro text-2xl mx-auto mt-3 group-hover:underline">
+              <p className=" font-biro text-2xl mx-auto mt-3 group-hover:underline text-center">
                 MY SELF CARE PLAYLIST
               </p>
             </Link>
