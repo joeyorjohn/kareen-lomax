@@ -12,7 +12,7 @@ import { motion, useAnimation } from "framer-motion";
 import { toJpeg } from "html-to-image";
 import axios from "axios";
 
-export default function page() {
+export default function Page() {
   const { data: session, status } = useSession();
 
   const [stage, setStage] = useState(0);
@@ -91,7 +91,7 @@ export default function page() {
         />
       </div>
       <div className="p-4 w-screen  min-h-screen flex">
-        {/* <div className="border border-black h-96 w-32"></div> */}{" "}
+        {/* <div className="border border-black h-96 w-32"></div> */}
         {session && (
           <div className="m-auto max-w-sm">
             {stage == 4 && (
@@ -119,7 +119,7 @@ export default function page() {
                 )}
 
                 <p className="text-center font-inter italic my-4">
-                  Kareen Lomax "SELF CARE" out now.
+                  Kareen Lomax &quot;SELF CARE&quot; out now.
                 </p>
                 <div className=" flex align-middle text-sm  text-gray-500 gap-2 my-4">
                   <button
@@ -161,10 +161,10 @@ export default function page() {
                   }}
                 >
                   <p className="text-center font-inter italic mb-4">
-                    “SELF CARE means to me putting everything I got on pause and
-                    loving myself for a moment. My go to practices include
-                    Journaling, a walk in nature, and forgiving the past through
-                    music.” – Kareen Lomax
+                    &quot;SELF CARE means to me putting everything I got on
+                    pause and loving myself for a moment. My go to practices
+                    include Journaling, a walk in nature, and forgiving the past
+                    through music. &quot; – Kareen Lomax
                   </p>
                 </motion.div>
                 <motion.div
@@ -505,8 +505,8 @@ export default function page() {
                   Download Image
                 </button>
                 <p className="text-center font-inter italic my-4">
-                  Tag @kareenlomax and use the "SELF CARE" sound when sharing on
-                  socials.
+                  Tag @kareenlomax and use the &quot;SELF CARE &quot; sound when
+                  sharing on socials.
                 </p>
                 <div className=" flex w-full content-between justify-between my-4 mx-auto">
                   <div className=" flex align-middle text-sm  text-gray-500 gap-2">
