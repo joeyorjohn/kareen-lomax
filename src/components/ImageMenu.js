@@ -19,6 +19,7 @@ import {
 import Draggable from "./Draggable";
 import Droppable from "./Droppable";
 import MenuItem from "./MenuItem";
+import Link from "next/link";
 
 export default function ImageMenu() {
   const startingPostion = { x: 0, y: 0 };
