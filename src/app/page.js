@@ -3,8 +3,8 @@ import Image from "next/image";
 import Head from "next/head";
 import ImageMenu from "../components/ImageMenu";
 import Journal from "../components/Journal";
-import SocialIcons from "@/components/SocialIcons";
-import Footer from "@/components/Footer";
+import SocialIcons from "../components/SocialIcons";
+import Footer from "../components/Footer";
 
 export default function home() {
   const meta = {

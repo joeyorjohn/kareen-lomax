@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" font-inter text-sm flex flex-col my-20">
+    <div className=" font-inter text-sm flex flex-col mb-20">
       <Link href="/photos" className="mx-auto mb-2">
         Photos
       </Link>

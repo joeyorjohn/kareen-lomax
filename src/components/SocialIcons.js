@@ -7,7 +7,7 @@ export default function SocialIcons() {
         <p className="text-center font-biro text-3xl">CONNECT</p>
       </div>
       <div className="flex">
-        <div className="mx-auto flex gap-4 h-8">
+        <div className="mx-auto flex flex-wrap justify-center gap-4 h-8">
           <a
             className="w-8"
             href="https://open.spotify.com/artist/0Fb9qTWnjsB90xH3zWr4oa"

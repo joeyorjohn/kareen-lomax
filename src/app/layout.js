@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Roboto } from "next/font/google";
 import localFont from "next/font/local";
+import { Providers } from "./providers";
 
 //👇 Configure our local font object
 const biro = localFont({
@@ -54,7 +55,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} ${roboto.variable} ${biro.variable}`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
