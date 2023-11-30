@@ -68,8 +68,8 @@ export default function PlaylistGenerator() {
     }
   }, [session]);
 
-  function downloadImage() {
-    toJpeg(document.getElementById("image-download"), {
+  async function downloadImage() {
+    await toJpeg(document.getElementById("image-download"), {
       quality: 0.95,
       pixelRatio: 2.5,
     }).then(function (dataUrl) {
