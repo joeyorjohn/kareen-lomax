@@ -35,6 +35,24 @@ export async function GET(request) {
   async function followPlaylist(props) {
     try {
       const response = await axios.put(
+        "https://api.spotify.com/v1/playlists/1VdAIpUeuLnfx3tfIHFQFS/followers",
+        { public: true },
+        {
+          headers: {
+            Authorization: `Bearer ${props.accessToken.data.access_token}`,
+            "Content-Type": `application/json`,
+          },
+        }
+      );
+      return { status: 200, data: response.data };
+    } catch (error) {
+      return error;
+    }
+  }
+
+  async function followPlaylist2(props) {
+    try {
+      const response = await axios.put(
         "https://api.spotify.com/v1/playlists/08yciHKnmyDndnUlRnSsqB/followers",
         { public: true },
         {
@@ -92,6 +110,13 @@ export async function GET(request) {
   }
 
   const playlist = await followPlaylist({
+    accessToken: accessToken,
+  });
+  if ((await playlist.status) != 200) {
+    return Response.json({ error: playlist.message });
+  }
+
+  const playlist2 = await followPlaylist2({
     accessToken: accessToken,
   });
   if ((await playlist.status) != 200) {
